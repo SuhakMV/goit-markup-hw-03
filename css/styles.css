@@ -24,13 +24,16 @@ ul {
     margin: 0;
     padding: 0;}
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;}
+
 /*First Page*/
 /*Header section*/
 .page-header {
     background-color: #FFFFFF;
-    border-bottom: 1px solid #ECECEC;
-    padding-top: 24px;
-    padding-bottom: 25px;}
+    border-bottom: 1px solid #ECECEC;}
 
 /*Header Navigation*/
 .main-nav {
@@ -66,6 +69,7 @@ ul {
     letter-spacing: 0.02em;
     color: var(--primary-title-color);
     display: block;}
+
 /*Links color*/
 .studio {color: #2196F3;}
 
@@ -82,6 +86,11 @@ ul {
 .contact-list {
     display: flex;
     margin-left: auto;}
+
+.nav-item> .link,
+.contact-item> .link {
+    padding-top: 32px;
+    padding-bottom: 32px;}
 
 .nav-item:nth-last-child(-n+2),
 .contact-list .contact-item + .contact-item
@@ -192,19 +201,21 @@ ul {
 /*Team section*/
 .team {background-color: #F5F4FA;}
 
-.team-item {
-    border-radius: 0px 0px 4px 4px;
-    background-color: #FFFFFF;
-    width: 270px;
-    margin-right: 30px;
-    padding-bottom: 30px;}
-
-.team-item:nth-child(4n) {margin-right: 0;}
-
 .team-list {
     list-style: none;
     display: flex;
     flex-wrap: wrap;}
+
+.team-item {
+    border-radius: 0px 0px 4px 4px;
+    background-color: #FFFFFF;
+    width: 270px;
+    margin-right: 30px;}
+    
+.team-item:nth-child(4n) {margin-right: 0;}
+
+.team-item> .item {
+    padding: 30px;}
 
 .team-title {
     font-size: 16px;
@@ -214,13 +225,12 @@ ul {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--primary-title-color);
-    margin-top: 30px;}
+    margin-bottom: 10px;}
 
 .team-text {
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
-    margin-top: 10px;}
+    letter-spacing: 0.03em;}
 
 /*Footer section*/
 .page-footer {
@@ -332,22 +342,21 @@ ul {
 .portfolio-item:nth-last-child(-n+3) {
     margin-bottom: 0;}
 
+.portfolio-item> .item {
+    padding: 20px 24px;}
+
 .portfolio-title {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--primary-title-color);
-    margin-top: 20px;
-    margin-bottom: 4px;
-    margin-left: 24px;}
+    margin-bottom: 4px;}
 
 .portfolio-text {
     text-transform: capitalize;
     line-height: 1.88;
-    letter-spacing: 0.03em;
-    margin-bottom: 20px;
-    margin-left: 24px;}
+    letter-spacing: 0.03em;}
 
 
 
