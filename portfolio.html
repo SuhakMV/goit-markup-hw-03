@@ -5,6 +5,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <!-- Modern-normalize -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Custom styles -->
     <link rel="stylesheet" href="./css/styles.css">
     <title>Module 02</title>
@@ -12,25 +14,25 @@
   <body>
     <!-- Header section -->
     <header class="page-header">
-      <div class="container">
-        <nav>
+      <div class="container main-nav">
+        <nav class="navigation">
           <a href="/" lang="en" class="logo-first">Web<span class="logo-second">Studio</span></a>
           <ul class="nav-list">
-            <li><a href="./index.html" class="link studio-potrfolio">студия</a></li>
-            <li><a href="./portfolio.html" class="link portfolio">портфолио</a></li>
-            <li><a href="/" class="link">контакты</a></li>
+            <li class="nav-item"><a href="./index.html" class="link studio">студия</a></li>
+            <li class="nav-item"><a href="./portfolio.html" class="link">портфолио</a></li>
+            <li class="nav-item"><a href="/" class="link">контакты</a></li>
           </ul>
         </nav>
         <ul class="contact-list">
-          <li><a href="mailto:info@devstudio.com" class="link mail">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111" class="link phone">+38 096 111 11 11</a></li>
+          <li class="contact-item"><a href="mailto:info@devstudio.com" class="link mail">info@devstudio.com</a></li>
+          <li class="contact-item"><a href="tel:+380961111111" class="link phone">+38 096 111 11 11</a></li>
         </ul>
       </div>
     </header>
 
     <main>
     <!-- Filter and portfolio section -->
-      <section class="filter">
+      <section class="section">
         <h1 class="section-title">portfolio</h1>
         <div class="container">
           <ul class="filter-list">
@@ -104,14 +106,14 @@
     <!-- Footer section -->
     <footer class="page-footer">
       <div class="container">
-      <a href="/" lang="en" class="logo-first">Web<span class="logo-second">Studio</span></a>
-      <address>
-        <ul class="footer-list">
-          <li class="address">г. Киев, пр-т Леси Украинки, 26</li>
-          <li><a href="mailto:info@devstudio.com" class="link mail">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111" class="link phone">+38 096 111 11 11</a></li>
-        </ul>
-      </address>
+        <a href="/" lang="en" class="logo-first">Web<span class="logo-second">Studio</span></a>
+        <address>
+          <ul class="footer-list">
+            <li class="address">г. Киев, пр-т Леси Украинки, 26</li>
+            <li class="footer-item"><a href="mailto:info@devstudio.com" class="link mail">info@devstudio.com</a></li>
+            <li class="footer-item"><a href="tel:+380961111111" class="link phone">+38 096 111 11 11</a></li>
+          </ul>
+        </address>
       </div>
     </footer>
   </body>
