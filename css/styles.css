@@ -83,10 +83,6 @@ ul {
     display: flex;
     margin-left: auto;}
 
-.nav-item>.link, .contact-item>.link {
-    padding-top: auto;
-    padding-bottom: auto;}
-
 .nav-item:nth-last-child(-n+2),
 .contact-list .contact-item + .contact-item
 {margin-left: 50px;}
